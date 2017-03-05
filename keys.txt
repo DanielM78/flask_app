@@ -1,6 +1,0 @@
-{
-    "consumer_key": "c1ZyFADSA3mh2WytrZ3HRA",
-    "consumer_secret": "MFFJp33GXsUFjy2mzwZ5uZ_3eKYT",
-    "token": "xHhPSkxbL4XVH8qZ1zhzvdEJEHB2DMog",
-    "token_secret": "8abI2crGto7A9f3b-Y3mxaYy3SE"
-}
