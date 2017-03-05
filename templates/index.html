@@ -193,6 +193,12 @@
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<div id="about" class="container-fluid">
+<div id="services" class="container-fluid">
+<div id="portfolio" class="container-fluid">
+<div id="pricing" class="container-fluid">
+<div id="contact" class="container-fluid">
+<!-- Nav Bar -->
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -204,6 +210,7 @@
       </button>
       <a class="navbar-brand" href="#myPage"> <p> <h5> career concierge, llc. </h5></p> </a>
     </div>
+
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
@@ -218,7 +225,7 @@
 
 <div class="jumbotron text-center">
   <h1>career concierge, llc.</h1> 
-  <p> college essays <span class="glyphicon glyphicon-option-vertical"></span>   resumes  <span class="glyphicon glyphicon-option-vertical"></span>   cover letters   <span class="glyphicon glyphicon-option-vertical"></span>  interview preparation</p> 
+   <p> college essays <span class="glyphicon glyphicon-option-vertical"></span>   resumes  <span class="glyphicon glyphicon-option-vertical"></span>   cover letters   <span class="glyphicon glyphicon-option-vertical"></span>  interview preparation</p> 
   <form>
     <div class="input-group">
       <input type="email" class="form-control" size="50" placeholder="Email Address" required>
@@ -541,35 +548,4 @@ $(document).ready(function(){
 
 </body>
 </html>
-=======
-<html>
-	<head>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-	</head>
 
-    <body>
-
-    	<div class = "jumbotron">
-    		<div class='container'>
-
-    			{% if forecast %}
-					<h1>  {{ forecast }}  </h1>
-				{% else %}
-					<h1> Hello there! What city do you live in? </h1> 
-					<form action="/" class="form-inline">
-						<div class ="form-group"> 
-							<input type="text" name="address" placeholder="City, State" class="form-control">
-						</div>
-						<input type="submit"> 
-
-					</form>
-
-
-				{% endif %}
-			
-    </body>
-
-</html>
